@@ -1,0 +1,55 @@
+casino-world24/
+│
+├── public/
+│   ├── CNAME
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ... (other static assets)
+│
+├── src/
+│   ├── api/
+│   │   ├── auth.js
+│   │   ├── payment.js
+│   │   └── ... (other API helpers)
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   └── sounds/
+│   │
+│   ├── components/
+│   │   ├── Auth/
+│   │   │   ├── Login.js
+│   │   │   └── Signup.js
+│   │   │
+│   │   ├── Games/
+│   │   │   ├── Slots.js
+│   │   │   ├── Crash.js
+│   │   │   └── Dice.js
+│   │   │
+│   │   ├── UI/
+│   │   │   ├── Loader.js
+│   │   │   ├── Tooltip.js
+│   │   │   └── ErrorMessage.js
+│   │   │
+│   │   └── ... (other shared components)
+│   │
+│   ├── admin/
+│   │   ├── AdminLogin.js
+│   │   ├── AdminDashboard.js
+│   │   ├── UserManagement.js
+│   │   ├── Transactions.js
+│   │   ├── GameStats.js
+│   │   ├── Settings.js
+│   │   └── ProtectedAdminRoute.js
+│   │
+│   ├── utils/
+│   │   ├── rng.js
+│   │   └── helpers.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── ... (other root files)
+│
+├── package.json
+├── README.md
+└── ... (other config files: .gitignore, etc.)
